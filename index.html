@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@Sujan | Personal Social Feed</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/profile.jpg">
+  <script src="https://kit.fontawesome.com/a2c2c1d8f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="profile">
+    <img src="assets/profile.jpg" alt="Profile Photo" class="profile-img">
+    <div class="profile-info">
+      <h1>@Sujan Kumar Roy</h1>
+      <p class="tagline">Student | Aspiring Data Scientist | App Developer</p>
+      <p class="bio">Welcome to my digital world — a space where I share thoughts, projects, and ideas I’m building and learning.</p>
+      <p class="details">
+        📍 Assam, India<br>
+        🎓 FYUG 1st Semester (B.Sc. Mathematics, Gauhati University)
+      </p>
+
+      <div class="social-links">
+        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/skr0411" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://peerlist.io/" target="_blank"><i class="fa-solid fa-id-card"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="mailto:youremail@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="feed">
+    <h2>My Posts</h2>
+    <div id="posts" class="posts"></div>
+  </main>
+
+  <button class="add-post-btn" id="addPostBtn">+</button>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <textarea id="postInput" placeholder="What's on your mind, Sujan?"></textarea>
+      <input type="file" id="postFile" accept="image/*,video/*,audio/*">
+      <div class="modal-actions">
+        <button id="cancelBtn" class="cancel">Cancel</button>
+        <button id="saveBtn" class="save">Post</button>
+      </div>
+      <p id="fileError" style="color:red;font-size:0.85rem;display:none;">File too large. Max 2MB.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 @Sujan Kumar Roy — Built with ❤️ using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
