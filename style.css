@@ -13,7 +13,7 @@ header {
   position: relative;
   width: 100%;
   height: 280px;
-  background: url('background.jpg') center/cover no-repeat;
+  background: url('https://raw.githubusercontent.com/SKR0411/Sujan-Social/Assets/background.jpg') center/cover no-repeat;
   border-bottom: 4px solid #ececec;
 }
 
